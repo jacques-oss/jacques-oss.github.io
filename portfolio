@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Jacques Joel</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Poppins', sans-serif; line-height: 1.6; color: #333; background: #f9f9f9; }
+    header { background: linear-gradient(135deg, #2c3e50, #34495e); color: #fff; padding: 3rem 2rem; text-align: center; position: relative; }
+    header img { width: 150px; height: 150px; border-radius: 50%; border: 4px solid #fff; object-fit: cover; margin-bottom: 1rem; animation: fadeIn 2s ease; }
+    header h1 { font-size: 2.5rem; animation: slideIn 1.2s ease; }
+    header p { font-size: 1.2rem; margin-top: .5rem; animation: slideIn 1.5s ease; }
+    section { max-width: 1000px; margin: 2rem auto; padding: 2rem; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); animation: fadeUp 1s ease; }
+    h2 { color: #2c3e50; margin-bottom: 1rem; border-bottom: 2px solid #eee; padding-bottom: .5rem; }
+    ul { list-style: none; margin: 1rem 0; }
+    ul li { margin: .5rem 0; }
+    .skills, .languages, .interests { display: flex; flex-wrap: wrap; gap: 1rem; }
+    .tag { background: #2c3e50; color: #fff; padding: .4rem .8rem; border-radius: 20px; font-size: .9rem; transition: transform .3s; }
+    .tag:hover { transform: scale(1.05); }
+    .contact { text-align: center; margin: 2rem 0; }
+    .contact a { color: #2c3e50; text-decoration: none; margin: 0 1rem; font-weight: bold; transition: color .3s; }
+    .contact a:hover { color: #1abc9c; }
+    footer { text-align: center; padding: 1rem; background: #2c3e50; color: #fff; margin-top: 2rem; }
+
+    /* Animations */
+    @keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
+    @keyframes slideIn { from {transform: translateY(-20px); opacity: 0;} to {transform: translateY(0); opacity: 1;} }
+    @keyframes fadeUp { from {transform: translateY(20px); opacity: 0;} to {transform: translateY(0); opacity: 1;} }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Mets ton image de profil dans le dépôt GitHub et renomme-la "profile.jpg" -->
+    <img src="profile.jpg" alt="Jacques Joel">
+    <h1>Jacques Joel</h1>
+    <p>Communication professional | Administrative Assistance | Customer Relations</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>Communication professional specialized in administrative assistance and customer relations, with experience in the digital field. Strong background in virtual assistance, web writing, and SEO.</p>
+  </section>
+
+  <section>
+    <h2>Professional Experience</h2>
+    <ul>
+      <li><strong>Administrative Assistant - Ten By Three (2023)</strong><br>
+        • Drafting of administrative documents<br>
+        • Follow-up of files and updating of data<br>
+        • Management of internal communications between employees and partners
+      </li>
+      <li><strong>Call Centre Agent - Easy Tech (2023-2024)</strong><br>
+        • Management of customer needs via chat and email<br>
+        • Reformulation and precise responses to requests<br>
+        • Teamwork with the company's staff<br>
+        • Strategic recommendations for clients
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Education & Training</h2>
+    <ul>
+      <li><strong>Bachelor's degree in Economics and Social Science</strong> - National Center for Tele-Education of Madagascar (2025)</li>
+      <li><strong>Virtual Assistance, Web Writing, SEO Training</strong> - Skiilz Madagascar</li>
+      <li><strong>Certificates:</strong> DELF - DALF, TEFL</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <span class="tag">Management of administrative tasks</span>
+      <span class="tag">Mastery of computer tools</span>
+      <span class="tag">Excellent communication</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Languages</h2>
+    <div class="languages">
+      <span class="tag">French: Professional</span>
+      <span class="tag">English: Professional</span>
+      <span class="tag">Malagasy: Native</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Interests</h2>
+    <div class="interests">
+      <span class="tag">Reading</span>
+      <span class="tag">Writing</span>
+      <span class="tag">Basket-ball</span>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:workline.jacques@gmail.com">workline.jacques@gmail.com</a></p>
+    <p>Phone: <a href="tel:+261340349117">+261 34 03 491 17</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Jacques Joel | Portfolio</p>
+  </footer>
+</body>
+</html>
